@@ -9,6 +9,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="BetterMVVM" customModuleProvider="target">
             <connections>
+                <outlet property="loginButton" destination="KWF-qJ-Thw" id="9l6-HB-wOR"/>
+                <outlet property="passwordTextField" destination="DR4-Se-nCq" id="kTX-gL-r8H"/>
+                <outlet property="usernameTextField" destination="S2K-jE-Cf3" id="HVb-g7-RDK"/>
                 <outlet property="view" destination="iN0-l3-epB" id="5pj-3k-ypY"/>
             </connections>
         </placeholder>
