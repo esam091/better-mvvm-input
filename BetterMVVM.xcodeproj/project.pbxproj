@@ -19,6 +19,7 @@
 		E5A4C0F22420598A00CC5ECD /* CasePaths in Frameworks */ = {isa = PBXBuildFile; productRef = E5A4C0F12420598A00CC5ECD /* CasePaths */; };
 		E5A4C0F424206F5600CC5ECD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A4C0F324206F5600CC5ECD /* ViewController.xib */; };
 		E5A4C0F62420748F00CC5ECD /* NewInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C0F52420748F00CC5ECD /* NewInputViewController.swift */; };
+		E5A4C0F82420817F00CC5ECD /* NewViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C0F72420817F00CC5ECD /* NewViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E5A4C0E7242057DE00CC5ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5A4C0F324206F5600CC5ECD /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		E5A4C0F52420748F00CC5ECD /* NewInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInputViewController.swift; sourceTree = "<group>"; };
+		E5A4C0F72420817F00CC5ECD /* NewViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewModelTests.swift; sourceTree = "<group>"; };
 		EC23E88501D2D9109CE0F277 /* Pods-BetterMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterMVVMTests.debug.xcconfig"; path = "Target Support Files/Pods-BetterMVVMTests/Pods-BetterMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F37C95E175171F1167EAD347 /* Pods_BetterMVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterMVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -124,6 +126,7 @@
 			children = (
 				E5A4C0E5242057DE00CC5ECD /* OldViewModelTests.swift */,
 				E5A4C0E7242057DE00CC5ECD /* Info.plist */,
+				E5A4C0F72420817F00CC5ECD /* NewViewModelTests.swift */,
 			);
 			path = BetterMVVMTests;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5A4C0E6242057DE00CC5ECD /* OldViewModelTests.swift in Sources */,
+				E5A4C0F82420817F00CC5ECD /* NewViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
