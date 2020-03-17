@@ -1,0 +1,6 @@
+framework module Pods_BetterMVVMTests {
+  umbrella header "Pods-BetterMVVMTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
