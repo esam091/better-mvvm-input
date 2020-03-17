@@ -41,7 +41,7 @@ class NewViewModel {
         
         let credentials = Driver.combineLatest(userName, password)
         
-        let submission = input.filter(LoginInput.submit).withLatestFrom(credentials)
+        let submission = input.filter(.submit).withLatestFrom(credentials)
             
         let error = submission.filter { (credential) -> Bool in
             let (userName, password) = credential
