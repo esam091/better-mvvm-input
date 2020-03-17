@@ -12,8 +12,8 @@ import RxCocoa
 
 import CasePaths
 
-enum MyFeatureInputs: Equatable {
-    case changedUsername(String)
+enum LoginInput: Equatable {
+    case changedUserName(String)
     case changedPassword(String)
     case submit
 }
@@ -35,13 +35,13 @@ extension SharedSequence where Element: Equatable {
 }
 
 class NewViewModel {
-    func transform(_ input: Driver<MyFeatureInputs>) -> Output {
-        let userName = input.compactMap(/MyFeatureInputs.changedUsername)
-        let password = input.compactMap(/MyFeatureInputs.changedPassword)
+    func transform(_ input: Driver<LoginInput>) -> Output {
+        let userName = input.compactMap(/LoginInput.changedUserName)
+        let password = input.compactMap(/LoginInput.changedPassword)
         
         let credentials = Driver.combineLatest(userName, password)
         
-        let submission = input.filter(MyFeatureInputs.submit).withLatestFrom(credentials)
+        let submission = input.filter(LoginInput.submit).withLatestFrom(credentials)
             
         let error = submission.filter { (credential) -> Bool in
             let (userName, password) = credential
@@ -97,8 +97,8 @@ class NewInputViewController: UIViewController {
 //        )
         
         let input = Driver.merge(
-            usernameTextField.rx.text.orEmpty.asDriver().map(MyFeatureInputs.changedUsername),
-            passwordTextField.rx.text.orEmpty.asDriver().map(MyFeatureInputs.changedPassword),
+            usernameTextField.rx.text.orEmpty.asDriver().map(LoginInput.changedUserName),
+            passwordTextField.rx.text.orEmpty.asDriver().map(LoginInput.changedPassword),
             loginButton.rx.tap.asDriver().map(to: .submit)
         )
         
