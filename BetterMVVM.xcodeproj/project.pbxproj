@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		E5A4C0D8242057DE00CC5ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A4C0D7242057DE00CC5ECD /* Assets.xcassets */; };
 		E5A4C0DB242057DE00CC5ECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A4C0D9242057DE00CC5ECD /* LaunchScreen.storyboard */; };
 		E5A4C0E6242057DE00CC5ECD /* BetterMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C0E5242057DE00CC5ECD /* BetterMVVMTests.swift */; };
+		E5A4C0F22420598A00CC5ECD /* CasePaths in Frameworks */ = {isa = PBXBuildFile; productRef = E5A4C0F12420598A00CC5ECD /* CasePaths */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19AC4CDD2160C899803B9262 /* Pods_BetterMVVM.framework in Frameworks */,
+				E5A4C0F22420598A00CC5ECD /* CasePaths in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +130,6 @@
 				EC23E88501D2D9109CE0F277 /* Pods-BetterMVVMTests.debug.xcconfig */,
 				D15AF0F27A5B268694457CFF /* Pods-BetterMVVMTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,6 +151,9 @@
 			dependencies = (
 			);
 			name = BetterMVVM;
+			packageProductDependencies = (
+				E5A4C0F12420598A00CC5ECD /* CasePaths */,
+			);
 			productName = BetterMVVM;
 			productReference = E5A4C0CB242057DD00CC5ECD /* BetterMVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -201,6 +205,9 @@
 				Base,
 			);
 			mainGroup = E5A4C0C2242057DD00CC5ECD;
+			packageReferences = (
+				E5A4C0F02420598A00CC5ECD /* XCRemoteSwiftPackageReference "swift-case-paths" */,
+			);
 			productRefGroup = E5A4C0CC242057DD00CC5ECD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -569,6 +576,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5A4C0F02420598A00CC5ECD /* XCRemoteSwiftPackageReference "swift-case-paths" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-case-paths";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5A4C0F12420598A00CC5ECD /* CasePaths */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5A4C0F02420598A00CC5ECD /* XCRemoteSwiftPackageReference "swift-case-paths" */;
+			productName = CasePaths;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E5A4C0C3242057DD00CC5ECD /* Project object */;
 }
