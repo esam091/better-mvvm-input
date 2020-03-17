@@ -15,7 +15,7 @@
 		E5A4C0D6242057DD00CC5ECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A4C0D4242057DD00CC5ECD /* Main.storyboard */; };
 		E5A4C0D8242057DE00CC5ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A4C0D7242057DE00CC5ECD /* Assets.xcassets */; };
 		E5A4C0DB242057DE00CC5ECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A4C0D9242057DE00CC5ECD /* LaunchScreen.storyboard */; };
-		E5A4C0E6242057DE00CC5ECD /* BetterMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C0E5242057DE00CC5ECD /* BetterMVVMTests.swift */; };
+		E5A4C0E6242057DE00CC5ECD /* OldViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C0E5242057DE00CC5ECD /* OldViewModelTests.swift */; };
 		E5A4C0F22420598A00CC5ECD /* CasePaths in Frameworks */ = {isa = PBXBuildFile; productRef = E5A4C0F12420598A00CC5ECD /* CasePaths */; };
 		E5A4C0F424206F5600CC5ECD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A4C0F324206F5600CC5ECD /* ViewController.xib */; };
 		E5A4C0F62420748F00CC5ECD /* NewInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C0F52420748F00CC5ECD /* NewInputViewController.swift */; };
@@ -45,7 +45,7 @@
 		E5A4C0DA242057DE00CC5ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5A4C0DC242057DE00CC5ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5A4C0E1242057DE00CC5ECD /* BetterMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5A4C0E5242057DE00CC5ECD /* BetterMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterMVVMTests.swift; sourceTree = "<group>"; };
+		E5A4C0E5242057DE00CC5ECD /* OldViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldViewModelTests.swift; sourceTree = "<group>"; };
 		E5A4C0E7242057DE00CC5ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5A4C0F324206F5600CC5ECD /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		E5A4C0F52420748F00CC5ECD /* NewInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInputViewController.swift; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		E5A4C0E4242057DE00CC5ECD /* BetterMVVMTests */ = {
 			isa = PBXGroup;
 			children = (
-				E5A4C0E5242057DE00CC5ECD /* BetterMVVMTests.swift */,
+				E5A4C0E5242057DE00CC5ECD /* OldViewModelTests.swift */,
 				E5A4C0E7242057DE00CC5ECD /* Info.plist */,
 			);
 			path = BetterMVVMTests;
@@ -325,7 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5A4C0E6242057DE00CC5ECD /* BetterMVVMTests.swift in Sources */,
+				E5A4C0E6242057DE00CC5ECD /* OldViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
