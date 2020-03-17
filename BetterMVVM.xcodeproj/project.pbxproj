@@ -17,6 +17,7 @@
 		E5A4C0DB242057DE00CC5ECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A4C0D9242057DE00CC5ECD /* LaunchScreen.storyboard */; };
 		E5A4C0E6242057DE00CC5ECD /* BetterMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C0E5242057DE00CC5ECD /* BetterMVVMTests.swift */; };
 		E5A4C0F22420598A00CC5ECD /* CasePaths in Frameworks */ = {isa = PBXBuildFile; productRef = E5A4C0F12420598A00CC5ECD /* CasePaths */; };
+		E5A4C0F424206F5600CC5ECD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A4C0F324206F5600CC5ECD /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		E5A4C0E1242057DE00CC5ECD /* BetterMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A4C0E5242057DE00CC5ECD /* BetterMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterMVVMTests.swift; sourceTree = "<group>"; };
 		E5A4C0E7242057DE00CC5ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5A4C0F324206F5600CC5ECD /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		EC23E88501D2D9109CE0F277 /* Pods-BetterMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterMVVMTests.debug.xcconfig"; path = "Target Support Files/Pods-BetterMVVMTests/Pods-BetterMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F37C95E175171F1167EAD347 /* Pods_BetterMVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterMVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -109,6 +111,7 @@
 				E5A4C0D7242057DE00CC5ECD /* Assets.xcassets */,
 				E5A4C0D9242057DE00CC5ECD /* LaunchScreen.storyboard */,
 				E5A4C0DC242057DE00CC5ECD /* Info.plist */,
+				E5A4C0F324206F5600CC5ECD /* ViewController.xib */,
 			);
 			path = BetterMVVM;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			files = (
 				E5A4C0DB242057DE00CC5ECD /* LaunchScreen.storyboard in Resources */,
 				E5A4C0D8242057DE00CC5ECD /* Assets.xcassets in Resources */,
+				E5A4C0F424206F5600CC5ECD /* ViewController.xib in Resources */,
 				E5A4C0D6242057DD00CC5ECD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

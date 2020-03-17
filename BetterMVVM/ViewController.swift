@@ -7,6 +7,28 @@
 //
 
 import UIKit
+import RxCocoa
+
+class ViewModel {
+    struct Input {
+        let userName: Driver<String>
+        let password: Driver<String>
+        let submit: Driver<Void>
+    }
+    
+    struct Output {
+        let errorMessage: Driver<String>
+        let loginSuccess: Driver<Void>
+    }
+    
+    func transform(_ input: Input) -> Output {
+        
+        return Output(
+            errorMessage: .empty(),
+            loginSuccess: .empty()
+        )
+    }
+}
 
 class ViewController: UIViewController {
 
